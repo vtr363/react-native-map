@@ -83,7 +83,7 @@ function ButtonGroup({ botoes, moverMaravilha }) {
       {botoes.map((maravilha, index) => (
         <Button
           key={index}
-          title={`${maravilha.name} | ${maravilha.flag}`}
+          title={`${maravilha.name}`}
           onPress={() => moverMaravilha(maravilha.coordinates)}
           buttonStyle={styles.botao}
         />
@@ -121,12 +121,6 @@ const styles = StyleSheet.create({
 
   mapa: {
     flex: 1,
-  },
-
-  botaoLinha: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginTop: 100
   },
 
   botaoGrupo: {
