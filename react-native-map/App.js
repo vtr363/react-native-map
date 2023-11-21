@@ -51,7 +51,7 @@ export default function App() {
     <View style={styles.container}>
       <Text style={styles.titulo}>
         <Text style={styles.tituloText}>
-          localizacoes do Mundo
+          localizacoes
         </Text>
       </Text>
       <MapView style={styles.mapa} region={regiao}>
@@ -110,7 +110,7 @@ const styles = StyleSheet.create({
   tituloText: {
     fontSize: 28,
     fontWeight: 'bold',
-    color: 'yellow',
+    color: 'white',
   },
 
   divisor: {
